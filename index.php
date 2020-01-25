@@ -57,7 +57,7 @@ $Reminder_Result = $sql->dbQuery("SELECT * FROM `reminders` WHERE flag = '1' ");
 	   });
 </script>
 </head>
-<body>
+<body style="background-color: #e5a3ad;">
 <div id="Container" >
 	<div id="tabs">
 		<ul>

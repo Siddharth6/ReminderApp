@@ -3,7 +3,7 @@
 // If there is no reminder set on current date it prints message.
 include('connect.php');
 $subject = 'Reminder';
-$to = ''; // an email address is required to be given here.
+$to = 'techchip18021999@gmail.com'; // an email address is required to be given here.
 $header = 'From: Reminder System \nContent-Type: text/plain';
 
 // the following query selects only those reminders which are set today

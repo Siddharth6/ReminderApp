@@ -50,7 +50,7 @@ $sql->dbFreeResult($result);?>
 		});	
 </script>
 </head>
-<body>
+<body style="background-color: #e5a3ad;">
 <div id="Container">	
 	<div id="tabs">
 		<ul>

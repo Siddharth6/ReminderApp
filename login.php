@@ -29,8 +29,8 @@ $con= mysqli_connect('localhost','root','','reminder');
 <head>
 	<style type="text/css">
 		.forms{
-                  margin-top: 300px;
-                  margin-left: 500px;
+                  margin-top: 200px;
+                  margin-left: 600px;
 
 		}
 
@@ -44,9 +44,10 @@ $con= mysqli_connect('localhost','root','','reminder');
 	</style>
 	<title>Reminder</title>
 </head>
-<body>
-
+<body style="background-color: #e5a3ad;">
+   <center><h3 style="margin-left:auto; color: red;">Welcome To Reminder App</h3></center>
   <form action="" method="post"class="forms">
+    <p style="color :green;margin-left:30px;">Login Here</p>
   	<input type="text" name="username" placeholder="username" required  /><br/><br/>
   	<input type="password" name="password" placeholder="password" required/><br/><br/>
   	<button type="submit" name="submit">submit</button>
